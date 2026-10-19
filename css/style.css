@@ -1,0 +1,88 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.task1-body {
+    background-color: #e2e8f0;
+}
+
+.train-card {
+    max-width: 800px;
+    width: 100%;
+    border-radius: 20px !important;
+}
+
+.train-header {
+    background-color: #0F6B5F;
+}
+
+.custom-input {
+    background-color: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    color: #16302B;
+}
+
+.custom-input:focus {
+    border-color: #0F6B5F;
+    box-shadow: 0 0 0 0.25rem rgba(15, 107, 95, 0.25);
+}
+
+.trip-type-toggle {
+    background-color: #f1f5f9;
+}
+
+.btn-trip-type {
+    border: none;
+    color: #0F6B5F;
+    font-weight: 600;
+}
+
+.btn-check:checked + .btn-trip-type {
+    background-color: #0F6B5F;
+    color: #ffffff;
+}
+
+.custom-radio:checked {
+    background-color: #0F6B5F;
+    border-color: #0F6B5F;
+}
+
+.custom-switch:checked, .custom-checkbox:checked {
+    background-color: #0F6B5F;
+    border-color: #0F6B5F;
+}
+
+.btn-find-trains {
+    background-color: #F2A93B;
+    color: #16302B;
+    border: none;
+}
+
+.btn-find-trains:hover {
+    background-color: #e0982d;
+    color: #16302B;
+}
+
+.btn-outline-clear {
+    border: 1px solid #cbd5e1;
+    color: #16302B;
+}
+
+.btn-outline-clear:hover {
+    background-color: #f1f5f9;
+}
+
+input:user-invalid, select:user-invalid, textarea:user-invalid {
+    border-color: #dc3545 !important;
+}
+
+input:user-invalid ~ .invalid-feedback,
+select:user-invalid ~ .invalid-feedback,
+textarea:user-invalid ~ .invalid-feedback {
+    display: block !important;
+}
+
+input:user-valid, select:user-valid, textarea:user-valid {
+    border-color: #198754 !important;
+}
